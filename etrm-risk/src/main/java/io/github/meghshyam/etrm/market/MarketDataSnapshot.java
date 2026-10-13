@@ -24,6 +24,6 @@ public final class MarketDataSnapshot {
         return q;
     }
 
-    private LocalDate getValutionDate() { return valuationDate };
+    private LocalDate getValutionDate() { return valuationDate;}
     private BigDecimal getMarketValue () {return marketValue;}
 }

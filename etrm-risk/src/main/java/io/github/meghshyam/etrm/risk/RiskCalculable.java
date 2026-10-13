@@ -1,4 +1,9 @@
 package io.github.meghshyam.etrm.risk;
 
-public class RiskCalculable {
+import io.github.meghshyam.etrm.market.MarketDataSnapshot;
+
+public interface RiskCalculable {
+    double delta(MarketDataSnapshot market);
+    String riskDriverSymbol();
+
 }
